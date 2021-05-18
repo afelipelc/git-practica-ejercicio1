@@ -1,0 +1,2 @@
+# aqupi se pone la lista negra de archivos o carpetas que no queremos que se incluyan en el repositorio
+node_modulues/
