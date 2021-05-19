@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+      Ejemplo del ejercicio #1
+    </title>
+  </head>
+  <body>
+    <script>
+      // ### a) Declara una variable llamada nombre, asígnale un valor, e imprime en consola su valor.
+      var nombre = 'Alex';
+      console.log(nombre);
+
+      /* ### b) Declara una variable llamada curso, manda a imprimir ambas variables como
+        interpolación de cadena para que de como resultado algo similar a: Hola, Pepe
+        está practicando Git.
+      */
+      var curso = 'Git';
+
+      console.log(`Hola, ${nombre} está practicando ${curso}`);
+
+      /*
+        ### c) Coloca una condición que evalúe, si el valor de curso es igual a git o Git o GIT,
+        muestra un mensaje en consola que diga, “Git es muy importante en el desarrollo
+        de software”, si no, el mensaje debe decir: “algo es algo”.
+      */
+      if(['git', 'Git', 'GIT'].includes(curso)) {
+      console.log('Git es muy importante para el desarrollo de software');
+      } else {
+          console.log('Algo es algo');
+      }
+    </script>
+  </body>
+</html>
